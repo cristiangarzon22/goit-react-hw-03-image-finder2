@@ -72,7 +72,7 @@ class App extends Component {
         )}
         {showModal && (
           <Modal onClick={this.handleCloseModal}>
-            <img src={largeImageURL} alt="" />
+            <img src={largeImageURL} alt="" onClick={this.handleCloseModal}/>
           </Modal>
         )}
       </div>
